@@ -32,14 +32,14 @@ fn main() {
     //     let mut employee_name = String::new();
     //     get_name(&mut employee_name);
 
-    //     match departments.get_mut(&department_name) {
-    //         Some(names) => {
-    //             names.push(employee_name);
-    //         }
-    //         None => {
-    //             departments.insert(department_name, vec![employee_name]);
-    //         }
+    // match departments.get_mut(&department_name) {
+    //     Some(names) => {
+    //         names.push(employee_name);
     //     }
+    //     None => {
+    //         departments.insert(department_name, vec![employee_name]);
+    //     }
+    // }
 
     //     println!("{departments:#?}");
     // }
